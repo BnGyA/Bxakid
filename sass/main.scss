@@ -1,0 +1,43 @@
+/**********************************
+            VARIABLES
+**********************************/
+
+$blue: #59afac;
+$lightblue: #c4dddc;
+$bg: #e3e3e3;
+$twitch: #6441a5;
+$dark-twitch: #322052;
+/**********************************
+            IMPORT
+**********************************/
+
+@import "reset";
+@import "header";
+@import "stream";
+@import "footer";
+
+
+
+
+
+
+/**********************************
+            MAIN
+**********************************/
+html {
+  box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.main-container{
+    width: 320px;
+    background-color: $bg;
+    margin: 0 auto;
+}
+
+.cf{
+    clear: both;
+}

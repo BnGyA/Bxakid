@@ -1,0 +1,40 @@
+/**********************************
+            STREAM
+**********************************/
+section.twitch-content{
+    margin: 0 auto;
+    padding: 0 10px 20px;
+    p{
+        text-align: justify;
+    }
+    img{
+        padding: 20px 0;
+    }
+    
+}
+
+.stream-buttons{
+    margin: 0 auto;
+    padding: 20px 10px 20px;
+    .right-buttons{
+        float: right;
+    }
+}
+
+.viewers-stream{
+    background-color: $twitch;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    line-height: 30px;
+    color: #FFFFFF;
+    float:right;
+    margin-right: 10px;
+    .spectateur{
+        background-color: $dark-twitch;
+        display: inline-block;
+        height: 30px;
+        float:right;
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,219 @@
+/**********************************
+            VARIABLES
+**********************************/
+/**********************************
+            IMPORT
+**********************************/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../sass/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**********************************
+            HEADER
+**********************************/
+/* line 4, ../sass/_header.scss */
+.head {
+  width: 100%;
+  height: 100px;
+  background: url("../images/head.png") no-repeat center;
+}
+
+/* line 9, ../sass/_header.scss */
+#hamburger {
+  background-color: #59afac;
+  display: block;
+  width: 100%;
+  text-align: right;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/* line 19, ../sass/_header.scss */
+nav {
+  max-height: 0;
+  overflow-y: hidden;
+  transition-property: all;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-out;
+}
+/* line 25, ../sass/_header.scss */
+nav.opened {
+  max-height: 500px;
+}
+/* line 28, ../sass/_header.scss */
+nav a {
+  display: block;
+  background-color: #c4dddc;
+  border-bottom: 1px solid #59afac;
+  font-size: 18px;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #59afac;
+}
+/* line 36, ../sass/_header.scss */
+nav a:hover {
+  color: #FFFFFF;
+}
+/* line 41, ../sass/_header.scss */
+nav .social a {
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0;
+  border: none;
+  height: 50px;
+}
+
+/**********************************
+            STREAM
+**********************************/
+/* line 4, ../sass/_stream.scss */
+section.twitch-content {
+  margin: 0 auto;
+  padding: 0 10px 20px;
+}
+/* line 7, ../sass/_stream.scss */
+section.twitch-content p {
+  text-align: justify;
+}
+/* line 10, ../sass/_stream.scss */
+section.twitch-content img {
+  padding: 20px 0;
+}
+
+/* line 16, ../sass/_stream.scss */
+.stream-buttons {
+  margin: 0 auto;
+  padding: 20px 10px 20px;
+}
+/* line 19, ../sass/_stream.scss */
+.stream-buttons .right-buttons {
+  float: right;
+}
+
+/* line 24, ../sass/_stream.scss */
+.viewers-stream {
+  background-color: #6441a5;
+  height: 30px;
+  width: 200px;
+  text-align: center;
+  line-height: 30px;
+  color: #FFFFFF;
+  float: right;
+  margin-right: 10px;
+}
+/* line 33, ../sass/_stream.scss */
+.viewers-stream .spectateur {
+  background-color: #322052;
+  display: inline-block;
+  height: 30px;
+  float: right;
+  padding: 0 20px;
+}
+
+/* line 1, ../sass/_footer.scss */
+footer {
+  background-color: #59afac;
+  padding: 0 10px;
+  height: 100px;
+  color: #FFFFFF;
+  padding-top: 40px;
+}
+/* line 7, ../sass/_footer.scss */
+footer a,
+footer small {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+/* line 13, ../sass/_footer.scss */
+footer a.made {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+/**********************************
+            MAIN
+**********************************/
+/* line 27, ../sass/main.scss */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 32, ../sass/main.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* line 35, ../sass/main.scss */
+.main-container {
+  width: 320px;
+  background-color: #e3e3e3;
+  margin: 0 auto;
+}
+
+/* line 41, ../sass/main.scss */
+.cf {
+  clear: both;
+}

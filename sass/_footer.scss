@@ -1,0 +1,19 @@
+footer{
+    background-color: $blue;
+    padding: 0 10px;
+    height: 100px;
+    color: #FFFFFF;
+    padding-top: 40px;
+    a,
+    small{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    a.made{
+        color: #FFFFFF;
+        text-decoration: none;
+        padding-top: 10px;
+    }
+    
+}

@@ -1,0 +1,50 @@
+/**********************************
+            HEADER
+**********************************/
+.head{
+    width:100%;
+    height: 100px;
+    background: url('../images/head.png') no-repeat center; 
+}
+#hamburger{
+    background-color: $blue;
+    display: block;
+    width:100%;
+    text-align: right;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav{
+    max-height: 0;
+    overflow-y: hidden;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-out;
+    &.opened{
+        max-height: 500px;
+    }
+    a{
+        display: block;
+        background-color: $lightblue;
+        border-bottom: 1px solid $blue;
+        font-size: 18px;
+        padding: 10px 10px;
+        text-decoration: none;
+        color: $blue;
+        &:hover{
+            color: #FFFFFF;
+        }
+    }
+    .social{
+        a{
+            display: inline-block;
+            float:left;
+            padding: 0;
+            margin: 0;
+            border: none;
+            height: 50px;
+        }
+    }
+}
