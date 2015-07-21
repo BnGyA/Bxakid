@@ -1,0 +1,27 @@
+
+/**********************************
+            MAIN
+**********************************/
+
+.communaute{
+    margin: 20px 0;
+    text-align: center;
+    .bxteam-presentation,
+    article{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    p{   
+        text-align: justify;
+        padding: 20px 20px;
+        background-color: $blue;
+        border-radius: 10px;
+        color: #FFFFFF;
+    }
+    img{
+        margin-top: 20px;
+    }
+    .bxteam-presentation{
+        float:none;
+    }
+}

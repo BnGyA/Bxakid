@@ -1,0 +1,50 @@
+/**********************************
+            VIDEOS
+**********************************/
+
+.youtube{
+    width: 100%;
+    padding: 0 10%;
+    a{
+            text-decoration: none;
+        }
+    article.video-youtube{
+        
+        position: relative;
+        text-align: center;
+        margin: 20px 0;
+        padding: 10px;
+        background: $blue;
+        
+        img{
+            width: 100%;
+        }
+        h3{
+            padding-top: 10px;
+            color: #FFFFFF;
+            font-size: 20px;
+            height: 120px;
+        }
+        p{
+            background-color: darken($blue, 5%);
+            color: #FFFFFF;
+            padding: 10px 0;
+            width: 33.33%;
+            margin-top: 20px;
+            font-size: 14px;
+            position: absolute;
+            bottom: 0px;
+            &.date{
+                left: 0px;
+            }
+            &.views{
+                left: 33.33%;
+            }
+            &.duration{
+                left: 66.66%;
+            }    
+        }
+        
+    }
+    
+}

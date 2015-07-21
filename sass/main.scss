@@ -7,6 +7,8 @@ $lightblue: #c4dddc;
 $bg: #e3e3e3;
 $twitch: #6441a5;
 $dark-twitch: #322052;
+$first-breakpoint: 780px;
+$second-breakpoint: 960px;
 /**********************************
             IMPORT
 **********************************/
@@ -14,11 +16,9 @@ $dark-twitch: #322052;
 @import "reset";
 @import "header";
 @import "stream";
+@import "bxteam";
+@import "videos";
 @import "footer";
-
-
-
-
 
 
 /**********************************
@@ -33,7 +33,7 @@ html {
   box-sizing: inherit;
 }
 .main-container{
-    width: 320px;
+    width: 100%;
     background-color: $bg;
     margin: 0 auto;
 }
@@ -41,3 +41,9 @@ html {
 .cf{
     clear: both;
 }
+
+/**********************************
+            RESPONSIVE
+**********************************/
+
+@import "responsive";
